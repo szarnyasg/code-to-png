@@ -1,0 +1,12 @@
+% !TeX program = pdflatex
+% -shell-escape -8bit %.tex
+\documentclass[convert={density=120}]{standalone}
+\usepackage[tightpage]{preview}
+
+\usepackage{minted}
+
+\begin{document}
+\begin{preview}
+\inputminted{java}{Snippet.java}
+\end{preview}
+\end{document}
